@@ -1,4 +1,5 @@
 #U-Turn: Traffic Management System 🚗🚦
+
 U-Turn is a comprehensive Traffic Management System built in C that leverages advanced data structures, algorithms, and file management techniques. It provides a dynamic solution for traffic control and monitoring, including features for managing traffic signals, incidents, violations, emergency vehicle requests, VIP requests, and more.
 
 This project uses Dijkstra’s Algorithm for shortest path calculation, has role-based user authentication (for Admin and Police), and incorporates an interactive color-coded command-line interface (CLI) for a better user experience.
