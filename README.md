@@ -27,6 +27,7 @@ Yellow: Informational messages ⚠️
 6. Optimized Algorithms and Data Structures
 Graph Representation: Cities and roads are represented as a graph structure for optimized pathfinding.
 Dijkstra’s Algorithm: Used to calculate the shortest path for emergency vehicles and regular traffic flow.
+
 🛠 Functionality Overview
 🚓 Police Panel
 Emergency Request: Handle emergency vehicle requests and control traffic signals.
@@ -35,6 +36,7 @@ Issue Traffic Warnings: Issue warnings to drivers violating traffic rules.
 VIP Request: Handle VIP requests and prioritize their vehicles.
 Report Accident: Add and manage traffic accident reports.
 Register Vehicle Info: Register vehicle details for law enforcement and record-keeping.
+
 👨‍💼 Admin Panel
 Traffic Status: View real-time traffic conditions at various intersections.
 Control Traffic Signals: Admins can manually control traffic signals based on current traffic flow.
@@ -42,17 +44,21 @@ Incident Management: Admins can handle incidents like accidents and disruptions.
 Traffic Violations Records: Admins can view and manage violation records.
 Information Records: Admins can maintain and access information about vehicles and traffic conditions.
 Shortest Path: View and calculate the shortest path between cities using Dijkstra’s algorithm.
+
 ⚙️ Optimizations & Design
 Efficient Algorithms: Dijkstra's algorithm optimizes pathfinding, making the system responsive even with a large dataset of cities and intersections.
 Modular Structure: The code is divided into modules, including traffic management, file handling, and user authentication, ensuring maintainability.
 Color-Coded UI: The system uses ANSI escape codes for color-coding success, error, and informational messages.
 File-Based Data Storage: Uses text files to persist traffic data, violations, accidents, and more for easy retrieval.
+
 📖 Technologies Used
 Programming Language: C
 Data Structures: Graphs, Linked Lists, Arrays
 Algorithms: Dijkstra's Shortest Path Algorithm
 File Management: Text-based file handling for persistent storage
 Color-Coding: ANSI Escape Codes for terminal color formatting
+
+
 🚀 How to Run the Project
 Clone the Repository:
 git clone https://github.com/your-username/U-Turn.git
